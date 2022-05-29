@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<HTML lang=pt-br>
+
+<html> 
+	<head>
+		<meta charset= "UTF-8">
+		<title> Contato </title>
+		<link rel = "stylesheet" href = "reset.css">
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+
+<body>
+	
+		<header>
+			<div class="caixa">
+				<h1> <img id="gato"src = "gato.png" alt="Logo da ONG animais felizes"></h1> 
+				<nav>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="animais.html">Animais</a></li>
+						<li><a href="contato.html">Contatos</a></li>	
+					</ul>
+				</nav>
+			</div>
+		</header>
+	<mai>
+			<form>
+				<label for = "nome"> Nome </label>
+				<input type = "text" id = "nome" class="padrao" required placeholder="Seu Nome Completo">
+
+				<label for = "email"> Email </label>
+				<input type = "email" id = "email" class="padrao" required placeholder="seuemail@dominio.com">
+
+				<label for = "telefone"> Telefone </label>
+				<input type = "tel" id = "telefone" class="padrao" required placeholder="(xx) xxxxx-xxxx">
+
+				<label for="mensagem"> Mensagem </label>
+				<textarea cols="70" rows="10" id="mensagem" class="padrao" required></textarea>
+
+			<div>
+				<p>Como prefere o nosso contato?</p>
+
+				<label for="semail"><input type="radio" name="contato" value="email" id="semail">
+				Email</label>
+				
+				<label for="stelefone"><input type="radio" name="contato" value="telefone" id="stelefone">
+				Telefone</label>
+				
+				<label for="whats"><input type="radio" name="contato" value="Whatsapp"id="whats" checked>Whatsapp</label>
+				
+			</div>
+
+			<div>
+				<p>Qual horário prefere ser atendido?</p>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+			</div>
+			<label class="checkbox"> <input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+
+			<input type = "submit" value="Enviar formulário" class="enviar">
+
+			</form>
+
+			<thead>
+				<table>
+					<tr>Horários disponiveis</tr>
+				</thead>
+				<tbody>
+						<tr>
+							<td>Segunda</td>
+							<td>14:00h as 19:00h</td>					
+						</tr>
+							<td>Quarta</td>
+							<td>10:00h as 18:00h</td>
+						<tr>
+							<td>Domingo</td>
+							<td>07:00h as 15:00h</td>
+						</tr>
+				</tbody>
+					
+				</table>
+			
+		</body>
+	</mai>
+	<footer>
+		<img class="gatin "src="gato.png" alt="Logo da ONG animais felizes">
+		<p class="cor">&copy;Copyright Karoline Novais - 2021</p>
+	</footer>
+
+</body>
+
+</html>

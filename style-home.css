@@ -1,0 +1,66 @@
+
+		body
+		{
+			text-align: center; background: black;
+		}
+		h2
+		{
+			
+			text-align: center; color: #3f3f3f; font-size: 35px;
+		}
+		#boneca
+		{
+			font-size:20px; text-align:center;
+		}
+		#fofo
+		{
+		width: 20%; 
+		}
+		#end
+		{
+			font-size: 14px; text-align: center; color: #3f3f3f;
+		}
+		em strong
+		{
+			color: #3f3f3f;
+		}
+		.item
+		{
+			font-style: italic; font-size: 20px; color: #ffffff;
+		}
+		.ben 
+		{
+			background: #3f3f3f;
+
+		}
+		#lol
+		{
+			color: #ffffff; font-size: 19px;
+		}
+		h3
+		{
+			color: #ffffff; font-size: 25px; text-align: center;
+		}
+		ul
+		{
+			display: inline-block;
+			vertical-align: top;
+			width: 20%;
+			margin-right: 15%;
+			list-style: none;
+			padding-top: 5%;
+			padding-right: 15%;
+		}
+		#vaquinha
+		{
+			width: 20%;
+			height: 5%;
+		}
+		.ca 
+		{
+			color: #FFFFFF; font-size: 30px;
+		}
+		h1
+		{
+			padding-left: 20px; text-align: left; background: #3f3f3f; color: white; 
+		}
